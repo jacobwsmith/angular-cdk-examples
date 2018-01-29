@@ -7,13 +7,16 @@ import {A11yModule} from '@angular/cdk/a11y';
 
 import { AppComponent } from './app.component';
 import {ColorOption, ColorPickerComponent} from './color-picker/color-picker.component';
+import {SelectOptionDirective, SelectComponent} from './select/select.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ColorPickerComponent,
-    ColorOption
+    ColorOption,
+    SelectComponent,
+    SelectOptionDirective
   ],
   imports: [
     BrowserModule,
